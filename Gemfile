@@ -40,6 +40,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 #Use bootstrap for application frontend layout
 gem 'bootstrap-sass', '3.3.7'
 
+# Use Hirb gem for better console data presentation
+gem 'hirb', '0.7.3'
+
 #Use fontawesome for icons
 gem 'font-awesome-sass', '~> 5.2.0'
 group :development, :test do
